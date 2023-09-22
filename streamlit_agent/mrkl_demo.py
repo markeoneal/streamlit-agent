@@ -31,7 +31,7 @@ st.set_page_config(
 
 # Setup credentials in Streamlit
 user_openai_api_key = st.sidebar.text_input(
-    "OpenAI API Key", type="password", help="Set this to run your own custom questions."
+    "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", type="password", help="Set this to run your own custom questions."
 )
 
 if user_openai_api_key:
